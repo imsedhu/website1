@@ -101,3 +101,101 @@
   color: white;
 }
 }
+
+@media(min-width: 577px) and (max-width: 940px){
+  .content-box{
+    top: 10px;
+    left: 20px;
+  }
+  .div1{
+    margin-bottom: 10px;
+  }
+  .div2 {
+    margin-bottom: 10px;
+  }
+  .div3 {
+    margin-bottom: 10px;
+  }
+  .div1 .p1{
+    font-size: 30px;
+  }
+  .shop-name img {
+    width: 20px;
+  }
+  .shop-name p {
+    font-size: 15px;
+  }
+  .shop-name {
+    margin-left: 0px;
+    width: 150px;
+  }
+  .nav-items {
+    margin: 0;
+  }
+  .nav-items ul li {
+    margin: 0;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media(max-width: 578px)  and (min-width: 374px ) {
+  .content-box {
+    top: 10px;
+    left: 10px;
+  }
+  .div1 .p1{
+    font-size: 20px;
+  }
+  .div1{
+    margin-bottom: 10px;
+  }
+  .div2 {
+    margin-bottom: 15px;
+  }
+  .div3 {
+    margin-bottom: 15px;
+  }
+  .shop-name img {
+    width: 20px;
+  }
+  .shop-name p {
+    font-size: 15px;
+  }
+  .shop-name {
+    margin-left: 0px;
+    width: 150px;
+  }
+  .nav-items {
+    margin: 0;
+  }
+  .nav-items ul li {
+    margin: 0;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .div2 {
+    font-size: 10px;
+  }
+  .button1 {
+    padding: 7px 10px;
+    background-color: #5B0888;
+    border: none;
+    border-radius: 28px;
+    color: white;
+    font-size: 8px;
+    margin-right: 5px;
+    font-weight: 600;
+  }
+  .button2 {
+    padding: 5px 10px;
+    background: none;
+    border: 2px solid #5B0888;
+    border-radius: 40px;
+    color: white;
+    font-size: 8px;
+    font-weight: 600;
+  }
+}
